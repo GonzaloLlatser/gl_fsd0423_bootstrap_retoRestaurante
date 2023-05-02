@@ -1,57 +1,69 @@
 
 .diseñocuerpo1, .diseñocuerpo3{
-    height: 13em;
+    height: 15em;
     width:100%;
-    background-image: url(/img/FOTOGRAFIACONLOGO.JPG);
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .logorestaurante{
-    height: 6em;
-    width: 6em;
-    background-color: bisque;
+    height: 20em;
+    width: 20em;
+    background-image: url(/img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 12em;
+    margin-top: 3em;
 
 }
 
-/* .container{
-    height: 60em;
-    width: 100%;
-    background-color: rgb(148, 188, 39);
-} */
+.row{
+    background-color: black;
+
+} 
 
 
 .col1{
     height: 14em;
     background-image: url(/img/int4.jpg); 
     background-position: center;
-    background-color: aqua;
+    background-image: url(/img/comida2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25em;
+    
+    /* border: 0.5em solid #daa520; */
 }
 
 .col2{
     height: 14em;
-    background-image: url(/img/joyas1.jpg);
+    background-image: url(/img/comida6.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-color: blue;
+    background-color: black;
+    background-position: center;
+    background-size: 20em;
 }
 
 .col3{
     height: 14em;
-    background-image: url(/img/joyas5.png);
     background-repeat:no-repeat; 
     background-position: center;
     background-size: 100%;
-    background-color: yellow;
+    
+
 }
 
 .col4{
     height: 14em;
-    background-image: url(/img/joyas2.png);
+    background-image: url(/img/comida4.jpg);
      background-repeat: no-repeat;
      background-position: center;
-     background-color: brown;
+     background-color: rgb(0, 0, 0);
+     background-size: 35em;
+     
 }
 
 .col5{
@@ -62,39 +74,44 @@
 }
 .col6{
     height: 14em;
-    background-image: url(/img/joyas2.png);
+    background-image: url(/img/comida7.jpg);
      background-repeat: no-repeat;
      background-position: center;
-     background-color: rgb(113, 19, 19);
+     background-size: 30em;
+    
 }
 
 .col7{
     height: 14em;
-    background-image: url(/img/joyas2.png);
+    background-image: url(/img/comida9.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(186, 186, 120);
+     
 }
 
 .col8{
     height: 14em;
-    background-image: url(/img/joyas2.png);
+    background-image: url(/img/comida11.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(78, 63, 63);
+     background-size: 22em;
 }
 
 .col9{
     height: 14em;
-    background-image: url(/img/joyas2.png);
+    background-image: url(/img/comida5.png);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(22, 158, 173);
+     background-size: 22em;
+    
 }
 
 .col10{
     height: 14em;
-    background-image: url(/img/joyas2.png);
+    
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(99, 56, 200);
@@ -102,7 +119,7 @@
 
 .col11{
     height: 14em;
-    background-image: url(/img/joyas2.png);
+    background-image: url(/img/comida12.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(215, 213, 78);
@@ -110,23 +127,45 @@
 
 .col12{
     height: 14em;
-    background-image: url(/img/joyas2.png);
+    background-image: url(/img/comida13.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(36, 138, 138);
+     background-size: 23em;
 }
 
 .diseñocuerpo4{
     height: 4em;
-    background-color: coral;
+    background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-.logotelefono, .logorredes, .logoemail{
-    height: 2em;
-    width: 5em;
-    background-color: aqua;
-    border: solid 0.1em;
+.logorredes{
+    height: 4em;
+    width: 20em;
+    background-color: rgb(0, 0, 0);
+    background-image: url(/img/logoredes.png); background-size: 9em; background-repeat: no-repeat; background-position: center;
+    
+}
+
+
+.col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12{
+    margin: 0.5em;
+    border-radius: 3%;
+}
+
+.col3, .col5, .col10{
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgba(11, 10, 10, 0.5);
+    backdrop-filter:grayscale blur(5px);
+    box-shadow: 0em 0em 1em #1d1d1d
+
+}
+.col3{
+    background-image: url(/img/reservas\ icono.png); background-repeat: no-repeat; background-size: 4em;
 }
