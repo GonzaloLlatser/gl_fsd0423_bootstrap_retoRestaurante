@@ -1,0 +1,132 @@
+
+.diseñocuerpo1, .diseñocuerpo3{
+    height: 13em;
+    width:100%;
+    background-image: url(/img/FOTOGRAFIACONLOGO.JPG);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logorestaurante{
+    height: 6em;
+    width: 6em;
+    background-color: bisque;
+
+}
+
+/* .container{
+    height: 60em;
+    width: 100%;
+    background-color: rgb(148, 188, 39);
+} */
+
+
+.col1{
+    height: 14em;
+    background-image: url(/img/int4.jpg); 
+    background-position: center;
+    background-color: aqua;
+}
+
+.col2{
+    height: 14em;
+    background-image: url(/img/joyas1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: blue;
+}
+
+.col3{
+    height: 14em;
+    background-image: url(/img/joyas5.png);
+    background-repeat:no-repeat; 
+    background-position: center;
+    background-size: 100%;
+    background-color: yellow;
+}
+
+.col4{
+    height: 14em;
+    background-image: url(/img/joyas2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: brown;
+}
+
+.col5{
+    height: 14em;
+    background-image: url(/img/int4.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(134, 146, 134);
+}
+.col6{
+    height: 14em;
+    background-image: url(/img/joyas2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: rgb(113, 19, 19);
+}
+
+.col7{
+    height: 14em;
+    background-image: url(/img/joyas2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: rgb(186, 186, 120);
+}
+
+.col8{
+    height: 14em;
+    background-image: url(/img/joyas2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: rgb(78, 63, 63);
+}
+
+.col9{
+    height: 14em;
+    background-image: url(/img/joyas2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: rgb(22, 158, 173);
+}
+
+.col10{
+    height: 14em;
+    background-image: url(/img/joyas2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: rgb(99, 56, 200);
+}
+
+.col11{
+    height: 14em;
+    background-image: url(/img/joyas2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: rgb(215, 213, 78);
+}
+
+.col12{
+    height: 14em;
+    background-image: url(/img/joyas2.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: rgb(36, 138, 138);
+}
+
+.diseñocuerpo4{
+    height: 4em;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logotelefono, .logorredes, .logoemail{
+    height: 2em;
+    width: 5em;
+    background-color: aqua;
+    border: solid 0.1em;
+}
