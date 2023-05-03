@@ -8,13 +8,23 @@
     align-items: center;
 }
 
+.diseñocuerpo1{
+    height: 15em;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logorestaurante{
-    height: 20em;
+    height: 10em;
     width: 20em;
-    background-image: url(/img/logo.png);
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/logo.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 12em;
+    background-size: 17em;
     margin-top: 3em;
 
 }
@@ -27,9 +37,9 @@
 
 .col1{
     height: 14em;
-    background-image: url(/img/int4.jpg); 
+    background-image: url(../img/int4.jpg); 
     background-position: center;
-    background-image: url(/img/comida2.png);
+    background-image: url(../img/comida2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 25em;
@@ -39,7 +49,6 @@
 
 .col2{
     height: 14em;
-    background-image: url(/img/comida6.jpg);
     background-repeat: no-repeat;
     background-position: top;
     background-color: black;
@@ -49,6 +58,8 @@
 
 .col3{
     height: 14em;
+    background-image: url(../img/comida6.jpg);
+    background-color: aqua;
     background-repeat:no-repeat; 
     background-position: center;
     background-size: 100%;
@@ -58,7 +69,7 @@
 
 .col4{
     height: 14em;
-    background-image: url(/img/comida4.jpg);
+    background-image: url(../img/comida4.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(0, 0, 0);
@@ -68,13 +79,13 @@
 
 .col5{
     height: 14em;
-    background-image: url(/img/int4.jpg);
+    background-image: url(../img/int4.jpg);
     background-repeat: no-repeat;
     background-color: rgb(134, 146, 134);
 }
 .col6{
     height: 14em;
-    background-image: url(/img/comida7.jpg);
+    background-image: url(../img/comida7.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-size: 30em;
@@ -83,7 +94,7 @@
 
 .col7{
     height: 14em;
-    background-image: url(/img/comida9.jpg);
+    background-image: url(../img/comida9.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(186, 186, 120);
@@ -92,7 +103,7 @@
 
 .col8{
     height: 14em;
-    background-image: url(/img/comida11.jpg);
+    background-image: url(../img/comida11.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(78, 63, 63);
@@ -101,7 +112,7 @@
 
 .col9{
     height: 14em;
-    background-image: url(/img/comida5.png);
+    background-image: url(../img/comida5.png);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(22, 158, 173);
@@ -119,7 +130,7 @@
 
 .col11{
     height: 14em;
-    background-image: url(/img/comida12.jpg);
+    background-image: url(../img/comida12.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(215, 213, 78);
@@ -127,11 +138,22 @@
 
 .col12{
     height: 14em;
-    background-image: url(/img/comida13.jpg);
+    background-image: url(../img/comida13.jpg);
      background-repeat: no-repeat;
      background-position: center;
      background-color: rgb(36, 138, 138);
      background-size: 23em;
+}
+
+.logorestaurantefinal{
+    height: 8em;
+    width: 13em;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../img/logosimplificado.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5em;
+    margin-top: 3em;
 }
 
 .diseñocuerpo4{
@@ -147,7 +169,7 @@
     height: 4em;
     width: 20em;
     background-color: rgb(0, 0, 0);
-    background-image: url(/img/logoredes.png); background-size: 9em; background-repeat: no-repeat; background-position: center;
+    background-image: url(../img/logoredes.png); background-size: 9em; background-repeat: no-repeat; background-position: center;
     
 }
 
@@ -157,15 +179,19 @@
     border-radius: 3%;
 }
 
-.col3, .col5, .col10{
+.col5, .col10{
     align-items: center;
     justify-content: center;
     color: aliceblue;
     background-color: rgba(11, 10, 10, 0.5);
     backdrop-filter:grayscale blur(5px);
     box-shadow: 0em 0em 1em #1d1d1d
+    
+}
+/* .col3:hover{
+transform: scale(1.3);
+transition: transform 3s ease-out;
+} */
 
-}
-.col3{
-    background-image: url(/img/reservas\ icono.png); background-repeat: no-repeat; background-size: 4em;
-}
+
+
