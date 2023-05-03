@@ -14,34 +14,16 @@
     <div class="fondoabsoluto">
         <div class="fondoprincipal">
                 <!-- BARRA DE NAVEGACION -->
-                <nav class="navbar navbar-dark bg-black fixed-top">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="../img/logosimplificado.jpg" alt="Bootstrap" width="60" height="30">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                          <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                            <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Reservas</a>
-                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Sobre Nosotros</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                <div class="dropdown">
+                    <button class="btn btn-black dropdown-toggle text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ////
+                    </button>
+                    <ul class="dropdown-menu bg-black">
+                      <li><a class="dropdown-item text-light" href="#">Reservar</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Descubrir</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Contacto</a></li>
+                    </ul>
+                  </div>
 
                 <!-- CUERPO1 -->
                 <div class="diseñocuerpo1">
@@ -67,7 +49,7 @@
                         col
                         col
                         d-flex 
-                        justify-content-center">RESERVAS</div>
+                        justify-content-center">RESERVAR</div>
 
                         <div class="col3 
                         col
@@ -91,7 +73,7 @@
                         col-4.8
                         col
                         col 
-                        d-flex justify-content-center">MENÚ</div>
+                        d-flex justify-content-center">DESCUBRIR</div>
               
                         <div class="col6
                         col-4.8
@@ -125,7 +107,7 @@
                           col
                           col
                           col
-                          d-flex justify-content-center">CONÓCENOS</div>
+                          d-flex justify-content-center">CONTACTO</div>
 
                           <div class="col11
                           col

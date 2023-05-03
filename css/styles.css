@@ -1,3 +1,9 @@
+.dropdown{
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    
+}
 
 .diseñocuerpo1, .diseñocuerpo3{
     height: 15em;
@@ -25,7 +31,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 17em;
-    margin-top: 3em;
 
 }
 
@@ -59,10 +64,10 @@
 .col3{
     height: 14em;
     background-image: url(../img/comida6.jpg);
-    background-color: aqua;
+    /* background-color: aqua; */
     background-repeat:no-repeat; 
     background-position: center;
-    background-size: 100%;
+    background-size: 20em;
     
 
 }
