@@ -19,9 +19,11 @@
                       ////
                     </button>
                     <ul class="dropdown-menu bg-black">
-                        <li><a class="dropdown-item text-light" href="">Reservar</a></li>
-                        <li><a class="dropdown-item text-light" href="/pages/Descubrir.html">Descubrir</a></li>
-                        <li><a class="dropdown-item text-light" href="/pages/Contacto.html">Contacto</a></li>
+                        <li><a class="dropdown-item text-light bg-transparent" href="/pages/Reservar.html">Reservar</a></li>
+                        <li><a class="dropdown-item text-light bg-transparent" href="/pages/Descubrir.html">Descubrir</a></li>
+                        <li><a class="dropdown-item text-light bg-transparent" href="/pages/Contacto.html">Contacto</a></li>
+                        <li><a class="dropdown-item text-light bg-transparent" href="/index.html">Inicio</a></li>
+
                       </ul>
                 </div>
 
@@ -31,41 +33,46 @@
                 </div>
 
                 <!-- APARTADORESERVA -->
-                
                 <div class="apartadoreserva">
                     <div class="formularioreserva">
-
-                        
-                        
-                        
-
-                         <div class="formulariox">
-                             <div class="card p-5  "> <!-- aca se pone el fondo de color para cambiar el back del formulario de reserva, antes de cambiar poner las palabras y contenido en blanco -->
+                         <div class="formulariox d-flex">
+                             <div class="card p-5 text-light bg-black d-flex align-top"> <!-- aca se pone el fondo de color para cambiar el back del formulario de reserva, antes de cambiar poner las palabras y contenido en blanco -->
                               <h5 class="card-title mb-3">RESERVA</h5>
                              <div class="input-group mb-3">
-                                 <select class="form-select border-green-text green-text text-center" id="inputGroupSelect01">
-                                      <option selected>¿A qué hora nos vemos?</option>
-                                      <option value="1">20:30</option>
-                                      <option value="1">21:00</option>
-                                      <option value="2">21:30</option>
-                                      <option value="3">22:00</option>
-                                      <option value="3">22:30</option>
-                                 </select>
+                                
+                                <select class="form-select border-green-text green-text text-center" id="inputGroupSelect01">
+                                     <option selected>Personas</option>
+                                     <option value="1">2 personas</option>
+                                     <option value="1">4 personas</option>
+                                     <option value="2">6 personas</option>
+                                     <option value="3">8 personas</option>
+                                     <option value="3">Grupo</option>
+                                </select>
                              </div>
+
+                             <div class="input-group mb-3">
+                                
+                                <select class="form-select border-green-text green-text text-center" id="inputGroupSelect01">
+                                     <option selected>Turno</option>
+                                     <option value="1">Comida</option>
+                                     <option value="1">Cena</option>
+                                </select>
+                             </div>
+
+                             
                              <form>
                                  <div class="mb-3">
-                                      <label for="exampleInputText1" class="form-label green-text">NOMBRE</label>
-                                      <input type="text" class="form-control border-green-text" name="email" maxlength="40" required>
-                                         
+                                      <label for="exampleInputText1" class="form-label green-text">Nombre</label>
+                                      <input type="text" class="form-control border-green-text" name="email" maxlength="20" required>
                                  </div>
 
                                  <div class="mb-3">
-                                      <label for="exampleInputEmail1" class="form-label green-text">CORREO ELECTRÓNICO</label>
-                                      <input type="email" class="form-control border-green-text" maxlength="100" required></textarea>
+                                      <label for="exampleInputEmail1" class="form-label green-text">E-mail</label>
+                                      <input type="email" class="form-control border-green-text" maxlength="40" required></textarea>
                                  </div>
 
-                                 <button type="link" class="btn border-green-text-link green-text"><a class="green-link-button"
-                                         href="../pages/reservation.html">Continuar</a></button>
+                                 <button type="link" class="btn btn-light text-black" ><a class=" text-black"
+                                         href="./Reservar.html">Continuar</a></button>
                              </form>
                          </div>
                     </div>
@@ -129,6 +136,6 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
