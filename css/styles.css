@@ -179,7 +179,7 @@ body{
     height: 4em;
     width: 20em;
     background-color: rgb(0, 0, 0);
-    background-image: url(/img/iconoredessociales.jpg); background-size: 9em; background-repeat: no-repeat; background-position: center;
+    background-image: url(../img/iconoredessociales.jpg); background-size: 9em; background-repeat: no-repeat; background-position: center;
     
 }
 
