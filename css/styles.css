@@ -15,12 +15,20 @@ body{
     background-color: black
 }
 
-.diseñocuerpo1, .diseñocuerpo3{
+.diseñocuerpo1{
     height: 15em;
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: end;
+}
+
+.diseñocuerpo3{
+    height: 15em;
+    background-color: rgb(0, 0, 0);
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .diseñocuerpo1{
